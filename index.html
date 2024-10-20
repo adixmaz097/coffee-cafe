@@ -1,394 +1,251 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Coffee Cafe</title>
   </head>
-  <body>
-<div class="navi">
-  <div id="navi-left">
-    <div id="navi-left-box">
-<i class="fa fa-coffee" id="first-icon"></i><span id="s1">Coffee</span>
-</div>
-  </div>
-
-  <div id="navi-right">
-    <a href="" id="links">Home</a>
-    <a href="" id="links">About</a>
-    <a href="" id="links">Menu</a>
-    <div id="navi-content">
-      <div id="navi-button" onclick="page()">Pages<i class="fa fa-angle-down" id="navi-button-icon"></i></div>
-      <div id="page-content" class="pageContent">
-        <a href="" id="page-cont-links">Our Coffee</a>
-        <a href="" id="page-cont-links">Shop by Category</a>
-        <a href="" id="page-cont-links">Learn</a>
-        <a href="" id="page-cont-links">Subscriptions</a>
+<body>
+      <div class="navi">
+        <div class="left-navi item">
+          <div id="navi-left-box">
+            <a href="" id="s1"><i class="fa fa-coffee" id="first-icon"></i>Coffee</a>
+          </div>
+        </div>
+        <div class="left-navi-mob item">
+          <div id="navi-left-box">
+            <a href="" id="s1"><i class="fa fa-coffee" id="first-icon"></i>Coffee</a>
+          </div>
+        </div>
+    
+        <div class="right-navi item">
+          <a href="" id="links">Home</a>
+          <a href="" id="links">About</a>
+          <a href="" id="links">Menu</a>
+          <a href="" id="links">Contact</a>
+        </div>
+        <div class="right-navi-mob item">
+          <div class="three-line">
+            <div id="line-1"></div>
+            <div id="line-2"></div>
+            <div id="line-3"></div>
+          </div>
+          <div class="content-menu">
+            <a href="" id="links">Home</a>
+            <a href="" id="links">About</a>
+            <a href="" id="links">Menu</a>
+            <a href="" id="links">Contact</a>
+          </div>
+        </div>
+        <div class="right-navi-mobland item">
+          <a href="" id="links">Home</a>
+          <a href="" id="links">About</a>
+          <a href="" id="links">Menu</a>
+          <a href="" id="links">Contact</a>
+        </div>
+        <div class="right-navi-tab item">
+            <a href="" id="links">Home</a>
+            <a href="" id="links">About</a>
+            <a href="" id="links">Menu</a>
+            <a href="" id="links">Contact</a>
+        </div>
       </div>
-    </div>
-    <a href="" id="links">Contact</a>
-  </div>
-
-  <div id="navi-left-mob">
-    <div id="navi-left-box">
-  <i class="fa fa-coffee" id="first-icon"></i><span id="s1">Coffee</span>
-  </div>
-  </div>
-
-  <div id="navi-right-mobile">
-    <div id="right-mobile">
-    <div id="lines" onclick="menu(this)">
-    <div class="line-1"></div>
-    <div class="line-2"></div>
-    <div class="line-3"></div>
-  </div>
-    <div class="mobile-navi-box" id="mobileNaviBox">
-    <a href="" id="links-mob">Home</a>
-    <a href="" id="links-mob">About</a>
-    <a href="" id="links-mob">Menu</a>
-    <div id="navi-content">
-      <div id="navi-button" onclick="pageMobile()">Pages<i class="fa fa-angle-down" id="navi-button-icon"></i></div>
-      <div id="page-content-mob" class="pageContent">
-        <a href="" id="page-cont-links">Our Coffee</a>
-        <a href="" id="page-cont-links">Shop by Category</a>
-        <a href="" id="page-cont-links">Learn</a>
-        <a href="" id="page-cont-links">Subscriptions</a>
+      <div class="slideShow">
+           <div id="box-1" class="slide-box">
+            <div class="transparent-black">
+              <div id="slide-1-box">
+                <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons">
+                <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
+              </div>
+              <div id="slide-1-box-mob">
+                <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons-mob">
+                <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
+              </div>
+            </div>
+          </div>
+            <div id="box-2" class="slide-box">
+              <div class="transparent-black">
+              <div id="slide-1-box">
+                <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons">
+                <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
+              </div>
+              <div id="slide-1-box-mob">
+                <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons-mob">
+                <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
+              </div>
+              </div>
+            </div>
+            <div id="box-3" class="slide-box">
+              <div class="transparent-black">
+              <div id="slide-1-box">
+                <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons">
+                <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
+              </div>
+              <div id="slide-1-box-mob">
+                <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons-mob">
+                <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
+              </div>
+              </div>
+           </div>
+           <div id="box-4" class="slide-box">
+            <div class="transparent-black">
+              <div id="slide-1-box">
+                <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons">
+                <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
+              </div>
+              <div id="slide-1-box-mob">
+                <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
+                <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
+              </div>
+              <div id="slide-1-buttons-mob">
+                <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
+              </div>
+              </div>
+           </div>
       </div>
-    </div>
-    <a href="" id="links-mob">Contact</a>
-  </div>
-</div>
-</div>
-</div>
-<div class="slideShow">
-<div id="slideshow-box-1" class="slide-box">
-  <div id="slide-1-box">
-<h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
-<p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-</div>
-<div id="slide-1-buttons">
-<button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
-</div>
-
-
-<div id="slide-1-box-mob">
-<h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
-<p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-</div>
-<div id="slide-1-buttons-mob">
-<button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
-</div>
-
-
-
-</div>
-<div id="slideshow-box-2" class="slide-box">
-  <div id="slide-1-box">
-  <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
-  <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-  </div>
-  <div id="slide-1-buttons">
-  <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
-  </div>
-
-  <div id="slide-1-box-mob">
-  <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
-  <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-  </div>
-  <div id="slide-1-buttons-mob">
-  <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
-  </div>
-
-
-</div>
-<div id="slideshow-box-3" class="slide-box">
-  <div id="slide-1-box">
-  <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
-  <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-  </div>
-  <div id="slide-1-buttons">
-  <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
-  </div>
-
-  <div id="slide-1-box-mob">
-  <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
-  <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-  </div>
-  <div id="slide-1-buttons-mob">
-  <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
-  </div>
-
-
-</div>
-<div id="slideshow-box-4" class="slide-box">
-  <div id="slide-1-box">
-  <h1 id="slide-1-head"><span id="slide-1-h-span">Coffee time</span> is a chance to slowdown</h1>
-  <p id="slide-1-para">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-  </div>
-  <div id="slide-1-buttons">
-  <button id="slide-1-b1">Book a table</button><button id="slide-1-b2">About Us</button>
-  </div>
-
-  <div id="slide-1-box-mob">
-  <h1 id="slide-1-head-mob"><span id="slide-1-h-span-mob">Coffee time</span> is a chance to slowdown</h1>
-  <p id="slide-1-para-mob">Indulge in the rich aroma and bold flavors of our coffee. Crafted from premium beans, each sip offers a perfect balance of taste and freshness. Elevate your coffee experience today!</p>
-  </div>
-  <div id="slide-1-buttons-mob">
-  <button id="slide-1-b1-mob">Book a table</button><button id="slide-1-b2-mob">About Us</button>
-  </div>
-
-
-</div>
-</div>
-
-
-<div class="container-1">
-  <div id="container-1-box-1">
-    <span id="cont-1-box-1-span-1">Our Skills</span>
-  <h1 id="container-1-head">We make the delicious coffee for the coffee lovers.</h1>
-  <p id="container-1-para">At our coffee shop, we take pride in creating delicious coffee specifically designed for coffee lovers. Using only the highest quality beans, we craft each cup with care and passion. Experience the rich flavors and aromatic bliss in every sip. Join us to elevate your coffee experience to new heights!</p>
-  <div id="container-1-buttons">
-  <button id="container-1-b1">Know More</button>
-  </div>
-  </div>
-  <div id="container-1-box-2">
-  <img src="img5.jpg" id="cont-1-box-2-img-1">
-  </div>
-</div>
-
-<div class="container-1-mob">
-  <div id="container-1-box-1-mob">
-    <span id="cont-1-box-1-span-1">Our Skills</span>
-  <h1 id="container-1-head-mob">We make the delicious coffee for the coffee lovers.</h1>
-  <p id="container-1-para-mob">At our coffee shop, we take pride in creating delicious coffee specifically designed for coffee lovers. Using only the highest quality beans, we craft each cup with care and passion. Experience the rich flavors and aromatic bliss in every sip. Join us to elevate your coffee experience to new heights!</p>
-  <div id="container-1-buttons-mob">
-  <button id="container-1-b1">Know More</button>
-  </div>
-  </div>
-  <div id="container-1-box-2-mob">
-  <img src="img5.jpg" id="cont-1-box-2-img-1-mob">
-  </div>
-</div>
-
-<div class="container-2">
-<div id="container-2-box-1">
-<img src="img6.jpg" id="cont-2-box-1-img-1">
-</div>
-<div id="container-2-box-2">
-  <h1 id="container-2-head">The easiest and most convenient way to make coffee</h1>
-  <p id="container-2-para">The easiest and most convenient way to make coffee is by using instant coffee or a coffee maker for quick, delicious results.</p>
-<div id="sub-container-2-box-1">
-  <ul>
-    <li>1 cup unsweetaned cocoa powder</li>
-    <li>1/2 cup buttet, cut into 1-inch pieces</li>
-    <li>11/4 cups granulated sugar</li>
-    <li>1/2 cup finally packed dark brown sugar</li>
-    <li>11/4 tsp baking soda</li>
-    <li>Add a insulated Coffee Flask/ Shaker & a Cafe Cap</li>
-  </ul>
-</div>
-</div>
-</div>
-
-<div class="container-2-mob">
-<div id="container-2-box-1">
-<img src="img6.jpg" id="cont-2-box-1-img-1">
-</div>
-<div id="container-2-box-2-mob">
-  <h1 id="container-2-head-mob">The easiest and most convenient way to make coffee</h1>
-  <p id="container-2-para-mob">The easiest and most convenient way to make coffee is by using instant coffee or a coffee maker for quick, delicious results.</p>
-<div id="sub-container-2-box-1-mob">
-  <ul>
-    <li>1 cup unsweetaned cocoa powder</li>
-    <li>1/2 cup buttet, cut into 1-inch pieces</li>
-    <li>11/4 cups granulated sugar</li>
-    <li>1/2 cup finally packed dark brown sugar</li>
-    <li>11/4 tsp baking soda</li>
-    <li>Add a insulated Coffee Flask/ Shaker & a Cafe Cap</li>
-  </ul>
-</div>
-</div>
-</div>
-
-<div class="container-3">
-  <div id="container-3-box-1">
-  <h1 id="container-3-head">Sales and Delivery Points</h1>
-  <p id="container-3-para">our company quickly provides customers with excellent service and convenient options</p>
-  <div id="container-3-buttons">
-  <ul>
-    <li>Brazil (10)</li>
-    <li>America (15)</li>
-    <li>Mexico (27)</li>
-  </ul>
-  <ul>
-    <li>Canada (17)</li>
-    <li>London (02)</li>
-    <li>England (06)</li>
-  </ul>
-  <ul>
-    <li>Austrailia (19)</li>
-    <li>Russia (05)</li>
-  </ul>
-  </div>
-  </div>
-  <div id="container-3-box-2">
-  <img src="img7.jpg" id="cont-3-box-2-img-1">
-  </div>
-</div>
-
-<div class="container-3-mob">
-  <div id="container-3-box-1-mob">
-  <h1 id="container-3-head-mob">Sales and Delivery Points</h1>
-  <p id="container-3-para-mob">our company quickly provides customers with excellent service and convenient options</p>
-  <div id="container-3-buttons-mob">
-  <ul>
-    <li>Brazil (10)</li>
-    <li>America (15)</li>
-    <li>Mexico (27)</li>
-    <li>Canada (17)</li>
-    <li>London (02)</li>
-    <li>England (06)</li>
-    <li>Austrailia (19)</li>
-    <li>Russia (05)</li>
-  </ul>
-  </div>
-  </div>
-  <div id="container-3-box-2-mob">
-  <img src="img7.jpg" id="cont-3-box-2-img-1-mob">
-  </div>
-</div>
-
-<div class="container-4">
-  <div id="black-trans">
-    <h1 id="cont-4-head">Dicsover The Taste Of Real Coffee</h1>
-    <p id="cont-4-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-  </div>
-
-  <div id="black-trans-mob">
-    <h1 id="cont-4-head-mob">Dicsover The Taste Of Real Coffee</h1>
-    <p id="cont-4-para-mob">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-  </div>
-</div>
-
-<div class="container-5">
-  <div id="cont-5-box-1">
-    <h1 id="cont-5-head">We make the delicious coffee for the coffee lovers.</h1>
-    <p id="cont-5-para">At our coffee shop, we take pride in creating delicious coffee specifically designed for coffee lovers. Using only the highest quality beans, we craft each cup with care and passion. Experience the rich flavors and aromatic bliss in every sip. Join us to elevate your coffee experience to new heights!</p>
-  </div>
-  <div id="cont-5-box-2">
-  <img src="img9.png" id="cont-5-img-1" class="cont-5-img-1">
-  <img src="img10.png" id="cont-5-img-1" class="cont-5-img-1">
-  <img src="img11.png" id="cont-5-img-1" class="cont-5-img-1">
-  <img src="img12.png" id="cont-5-img-1" class="cont-5-img-1">
-</div>
-<div id="cont-5-box-3">
-  <div id="sub-box-3">
-    <h1 id="sub-box-head">Opening Hours:</h1>
-    <p id="sub-box-para">Monday - Friday // 09:00-06:00</p>
-    <p id="sub-box-para">Saturday // 10:00 - 01:00</p>
-    <p id="sub-box-para">Sunday // CLOSED</p>
-  </div>
-  <div id="sub-box-3">
-    <h1 id="sub-box-head">Reservation Number</h1>
-    <p id="sub-box-para">+(00)-007-665-7659</p>
-  </div>
-</div>
-</div>
-
-<div class="container-5-mob">
-  <div id="cont-5-box-1-mob">
-    <h1 id="cont-5-head">We make the delicious coffee for the coffee lovers.</h1>
-    <p id="cont-5-para">At our coffee shop, we take pride in creating delicious coffee specifically designed for coffee lovers. Using only the highest quality beans, we craft each cup with care and passion. Experience the rich flavors and aromatic bliss in every sip. Join us to elevate your coffee experience to new heights!</p>
-  </div>
-  <div id="cont-5-box-2-mob">
-  <img src="img9.png" id="cont-5-img-1-mob" class="cont-5-img-1-mob">
-  <img src="img10.png" id="cont-5-img-1-mob" class="cont-5-img-1-mob">
-  <img src="img11.png" id="cont-5-img-1-mob" class="cont-5-img-1-mob">
-  <img src="img12.png" id="cont-5-img-1-mob" class="cont-5-img-1-mob">
-</div>
-<div id="cont-5-box-3-mob">
-  <div id="sub-box-3">
-    <h1 id="sub-box-head">Opening Hours:</h1>
-    <p id="sub-box-para">Monday - Friday // 09:00-06:00</p>
-    <p id="sub-box-para">Saturday // 10:00 - 01:00</p>
-    <p id="sub-box-para">Sunday // CLOSED</p>
-  </div>
-  <div id="sub-box-3">
-    <h1 id="sub-box-head">Reservation Number</h1>
-    <p id="sub-box-para">+(00)-007-665-7659</p>
-  </div>
-</div>
-</div>
-
-<div class="container-6">
-<div id="cont-6-box-1">
-  <h1 id="cont-6-head">Newsletter</h1>
-  <p id="cont-6-para-1">Get in your inbox the latest News and</p>
-  <input type="text" placeholder="Email" id="cont-6-input"><button id="cont-6-but"><i class="fa fa-envelope-o"></i></button>
-  <p id="cont-6-para-2">Subscribe and get our weekly newslatter we'll never share your email address</p>
-</div>
-
-<div id="cont-6-box-2">
-  <h1 id="cont-6-head">Featured Links</h1>
-  <div id="featured-links">
-    <a href="">Our Team</a>
-    <a href="">Instagram feed</a>
-    <a href="">Our Branches</a>
-    <a href="">Career</a>
-    <a href="">Help & Support</a>
-  </div>
-</div>
-
-<div id="cont-6-box-2">
-  <h1 id="cont-6-head">Quick Links</h1>
-  <div id="featured-links">
-    <a href="">Home Page</a>
-    <a href="">About Us</a>
-    <a href="">Our menu</a>
-    <a href="">Blog Posts</a>
-    <a href="">Contact Us</a>
-  </div>
-</div>
-
-
-</div>
-<p id="cont-6-para-3">@2024 Coffee. All rights reserved | Designed by Aditya</p>
-
-<div class="container-6-mob">
-  <div id="cont-6-box-1-mob">
-    <h1 id="cont-6-head-mob">Newsletter</h1>
-    <p id="cont-6-para-1-mob">Get in your inbox the latest News and</p>
-    <input type="text" placeholder="Email" id="cont-6-input-mob"><button id="cont-6-but-mob"><i class="fa fa-envelope-o"></i></button>
-    <p id="cont-6-para-2-mob">Subscribe and get our weekly newslatter we'll never share your email address</p>
-  </div>
-
-  <div id="cont-6-box-2-mob">
-    <h1 id="cont-6-head">Featured Links</h1>
-    <div id="featured-links">
-      <a href="">Our Team</a>
-      <a href="">Instagram feed</a>
-      <a href="">Our Branches</a>
-      <a href="">Career</a>
-      <a href="">Help & Support</a>
-    </div>
-  </div>
-
-  <div id="cont-6-box-2-mob">
-    <h1 id="cont-6-head">Quick Links</h1>
-    <div id="featured-links">
-      <a href="">Home Page</a>
-      <a href="">About Us</a>
-      <a href="">Our menu</a>
-      <a href="">Blog Posts</a>
-      <a href="">Contact Us</a>
-    </div>
-  </div>
-</div>
-<div class="div-last-mob">
-<p id="cont-6-para-3-mob">@2024 Coffee. All rights reserved | Designed by Aditya</p>
-</div>
-<script src="function.js"></script>
-  </body>
+      <div class="container-1">
+          <div id="container-1-box-1">
+            <span id="cont-1-box-1-span-1">Our Skills</span>
+              <h1 id="container-1-head">We make the delicious coffee for the coffee lovers.</h1>
+              <p id="container-1-para">At our coffee shop, we take pride in creating delicious coffee specifically designed for coffee lovers. Using only the highest quality beans, we craft each cup with care and passion. Experience the rich flavors and aromatic bliss in every sip. Join us to elevate your coffee experience to new heights!</p>
+            <div id="container-1-buttons">
+              <button id="container-1-b1">Know More</button>
+            </div>
+          </div>
+          <div id="container-1-box-2">
+            <img src="img5.jpg" id="cont-1-box-2-img-1">
+          </div>
+      </div>
+      <div class="container-2">
+        <div id="container-2-box-1">
+          <img src="img6.jpg" id="cont-2-box-1-img-1">
+        </div>
+        <div id="container-2-box-2">
+          <h1 id="container-2-head">The easiest and most convenient way to make coffee</h1>
+          <p id="container-2-para">The easiest and most convenient way to make coffee is by using instant coffee or a coffee maker for quick, delicious results.</p>
+          <div id="sub-container-2-box-1">
+            <ul>
+              <li>1 cup unsweetaned cocoa powder</li>
+              <li>1/2 cup buttet, cut into 1-inch pieces</li>
+              <li>11/4 cups granulated sugar</li>
+              <li>1/2 cup finally packed dark brown sugar</li>
+              <li>11/4 tsp baking soda</li>
+              <li>Add a insulated Coffee Flask/ Shaker & a Cafe Cap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-3">
+        <div id="container-3-box-1">
+          <h1 id="container-3-head">Sales and Delivery Points</h1>
+          <p id="container-3-para">our company quickly provides customers with excellent service and convenient options</p>
+          <div id="container-3-buttons">
+            <ul>
+              <li>Brazil (10)</li>
+              <li>America (15)</li>
+              <li>Mexico (27)</li>
+            </ul>
+            <ul>
+              <li>Canada (17)</li>
+              <li>London (02)</li>
+              <li>England (06)</li>
+            </ul>
+            <ul>
+              <li>Austrailia (19)</li>
+              <li>Russia (05)</li>
+            </ul>
+         </div>
+        </div>
+        <div id="container-3-box-2">
+          <img src="img7.jpg" id="cont-3-box-2-img-1">
+        </div>
+      </div>
+      <div class="container-4">
+        <div id="black-trans">
+          <h1 id="cont-4-head">Dicsover The Taste Of Real Coffee</h1>
+          <p id="cont-4-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+      </div>
+      <div class="container-5">
+          <div id="cont-5-box-1">
+              <h1 id="cont-5-head">We make the delicious coffee for the coffee lovers.</h1>
+              <p id="cont-5-para">At our coffee shop, we take pride in creating delicious coffee specifically designed for coffee lovers. Using only the highest quality beans, we craft each cup with care and passion. Experience the rich flavors and aromatic bliss in every sip. Join us to elevate your coffee experience to new heights!</p>
+          </div>
+          <div id="cont-5-box-2">
+            <img src="img9.png" id="cont-5-img-1" class="cont-5-img-1">
+            <img src="img10.png" id="cont-5-img-1" class="cont-5-img-1">
+            <img src="img11.png" id="cont-5-img-1" class="cont-5-img-1">
+            <img src="img12.png" id="cont-5-img-1" class="cont-5-img-1">
+          </div>
+          <div id="cont-5-box-3">
+            <div id="sub-box-3">
+                <h1 id="sub-box-head">Opening Hours:</h1>
+                <p id="sub-box-para">Monday - Friday // 09:00-06:00</p>
+                <p id="sub-box-para">Saturday // 10:00 - 01:00</p>
+                <p id="sub-box-para">Sunday // CLOSED</p>
+            </div>
+            <div id="sub-box-3">
+                <h1 id="sub-box-head">Reservation Number</h1>
+                <p id="sub-box-para">+(00)-007-665-7659</p>
+            </div>
+          </div>
+      </div>
+      <div class="container-6">
+        <div id="cont-6-box-1">
+          <h1 id="cont-6-head">Newsletter</h1>
+          <p id="cont-6-para-1">Get in your inbox the latest News and</p>
+          <input type="text" placeholder="Email" id="cont-6-input"><button id="cont-6-but"><i class="fa fa-envelope-o"></i></button>
+          <p id="cont-6-para-2">Subscribe and get our weekly newslatter we'll never share your email address</p>
+        </div>
+        
+        <div id="cont-6-box-2">
+          <h1 id="cont-6-head">Featured Links</h1>
+          <div id="featured-links">
+            <a href="">Our Team</a>
+            <a href="">Instagram feed</a>
+            <a href="">Our Branches</a>
+            <a href="">Career</a>
+            <a href="">Help & Support</a>
+          </div>
+        </div>
+        
+        <div id="cont-6-box-3">
+          <h1 id="cont-6-head">Quick Links</h1>
+          <div id="featured-links">
+            <a href="">Home Page</a>
+            <a href="">About Us</a>
+            <a href="">Our menu</a>
+            <a href="">Blog Posts</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+        <div id="cont-6-box-4">
+          <p id="cont-6-para-3">@2024 Coffee. All rights reserved | Designed by Aditya</p>                
+        </div>
+      </div>
+  <script src="function.js"></script>
+</body>
 </html>
