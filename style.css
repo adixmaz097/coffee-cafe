@@ -27,7 +27,7 @@
   display:grid;
   grid-template-columns:auto;
   grid-template-rows:auto;
-  background-color:white;
+  background-color:black;
 }
 #navi-left-box{}
 #s1{
@@ -48,6 +48,7 @@
   grid-template-columns:auto auto auto auto auto;
   grid-template-rows:auto;
   text-align:center;
+  gap:30px;
   justify-content:center;
   background-color:black;
 }
